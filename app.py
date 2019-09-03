@@ -9,6 +9,7 @@ class Advertising:
 
         self.upgrade = strftime('%a', localtime())
         self.hour = strftime('%H', localtime())
+        self.command = 'vlc -f --repeat video.mp4'
 
     @staticmethod
     def send_video():
@@ -28,10 +29,9 @@ class Advertising:
             print('No updates for today')
 
     def run_video(self):
-        self.update_video()
-        os.system('vlc -f --repeat video.mp4')
+        os.system(self.command)
 
 
 if __name__ == '__main__':
     a = Advertising()
-    a.run_video()
+    a.update_video()
