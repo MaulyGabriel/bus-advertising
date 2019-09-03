@@ -5,7 +5,7 @@ site_author: 'Gabriel Mauly'
 theme:
   name: 'material'
   palette:
-    primary: 'Black'
+    primary: 'indigo'
     accent: 'indigo'
   language: 'pt'
 
