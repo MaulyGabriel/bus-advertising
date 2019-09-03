@@ -1,0 +1,14 @@
+site_name: 'Bus advertising'
+site_description: 'play advertising'
+site_author: 'Gabriel Mauly'
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'Black'
+    accent: 'indigo'
+  language: 'pt'
+
+plugins:
+    - search
+    - pdf-export
